@@ -1,12 +1,22 @@
 # Requirements
 
 ## Introduction
-**Parking management system** is used for managing the incoming and outgoing vehicles. This project is designed using simple C language. Here the user have to enter the details of the vehicle before parking it in the parking area, so that the amount of vehicles being parked in the slot can be monitored without getting any traffic involved in between. The users can even check for the availability of the area for parking their vehicle. This mini project is compiled using **Visual Studio Code** on Windows and Linux.
+The heat control system is used to control the temperature of the car seat. When a person gets seated on a car, the button sensor will be activated. After that, the user gets access to turn ON the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
+
+
+## Components used-
+* ATmega328 microcontroller 
+* temperature sensor (Potentiometer)
+* Switches(button)
+* LED 
+* LCD diplay
+
 
 ## Features
-* To avoid thowing problems in the parking area.
-* To determine the capacity that been filled in the parking lot.
-* Storing and maintaining the records of the parking area in small period of time.
+* The System will be able to tell whether a person is seated or not.
+* A person once seated gets the access to turn ON the heater.
+* The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller.
+
 
 ## SWOT - Strengths, Weakness, Oppurtunities and Threats
 ### Strengths
@@ -39,11 +49,11 @@
 ### High Level Requirements
 | High Level Requirements      | Description |
 | ----------- | ----------- |
-| HLR1      | Login and Log out     |
-| HLR2   | User Input |
-| HLR3_LLR1   | List of Vehicles|
-| HLR4_LLR2_LLR3   | Capacity and Amount |
-| HLR5_LLR4_LLR5   | Entry |
+| HLR1 | Microcontroller unit    |
+| HLR2 | Switches |
+| HLR3 | Temperature sensor |
+| HLR4 | Heater |
+| HLR5 | Display |
 
 ### Low Level Requirements
 | Low Level Requirements      | Description |
@@ -53,3 +63,4 @@
 | LLR3   | View Amount to be paid |
 | LLR4   |View Previous Vehicles information |
 | LLR5   | Get Data / Exit |
+
