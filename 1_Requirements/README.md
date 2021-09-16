@@ -49,7 +49,7 @@ The heat control system is used to control the temperature of the car seat. When
 
 ## Detail Requirements
 ### High Level Requirements
-| High Level Requirements      | Description |
+| ID | Description |
 | ----------- | ----------- |
 | HLR1 | Microcontroller unit    |
 | HLR2 | Switches |
