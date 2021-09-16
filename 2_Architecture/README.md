@@ -1,8 +1,4 @@
-# Architecture
+# Block diagram
 
-* Add UML Diagrams
-* For information about UML Diagrams refer: [UML Diagrams](https://www.uml-diagrams.org/uml-25-diagrams.html)
-## Tools 
-* [Draw.io](https://app.diagrams.net/)
-* [Creately](https://app.creately.com/diagram/create)
-* or any other free tools
+![block111](https://user-images.githubusercontent.com/89584926/133617002-8d630c31-bcea-4fb6-9eed-3a17aa1ccfbb.png)
+
