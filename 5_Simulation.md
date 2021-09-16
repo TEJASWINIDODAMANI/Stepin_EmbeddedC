@@ -45,6 +45,8 @@ Button switch is OFF and heater switch is OFF so the LED is OFF
 ![case4](https://user-images.githubusercontent.com/89584926/133650670-838df9b6-38b8-4891-a1be-4c9c25e8a05c.PNG)
 
 
+# Activity 2
+Potentiometer is used as a temperature sensor to read the temperature values and convert the Analog values obtained from the sensor to Digital values.
 
-
+![case21](https://user-images.githubusercontent.com/89584926/133652773-1137da6f-4e5c-4ace-a697-5618593b1fb5.PNG)
 
