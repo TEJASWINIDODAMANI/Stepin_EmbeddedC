@@ -1,7 +1,7 @@
 # Requirements
 
 ## Introduction
-The heat control system is used to control the temperature of the car seat. When a person gets seated on a car, the button sensor will be activated. After that, the user gets access to turn ON the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
+The heat control system is used to control the temperature of the car seat. When a person gets seated on a car, the button sensor will be activated. After that, the user gets access to turn ON the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a Atmega328 microcontroller.
 
 
 ## Components used-
@@ -10,6 +10,11 @@ The heat control system is used to control the temperature of the car seat. When
 * Switches(button)
 * LED 
 * LCD diplay
+
+## Software used-
+* SimulIDE
+* GCC Compiler for AVR
+* Code block
 
 
 ## Features
@@ -20,30 +25,27 @@ The heat control system is used to control the temperature of the car seat. When
 
 ## SWOT - Strengths, Weakness, Oppurtunities and Threats
 ### Strengths
-- Easy accessibility.
-- User friendly.
-- Proper allocation of area.
-- Maintaining the information of vehicles parked before.
-- Amount to be paid can also be monitored.
+* Robust in nature 
+* low cost
+* Easyily accessible by the any person
+* High efficiency
 
 ### Weakness
-- It needs few secured connection.
-- Simple C code.
+* This system can be used at low to moderate temperature.
 
 ### Oppurtunities
-- Few features can be added to make the project more robust, by making few changes.
-- Can add identification of vehicle through number plates.
-- Can use different languages to make an efficient code.
+* This system can be expanded by adding few more features depending on the user requirement. 
 
 ### Threats
-- User must provide proper input value as provided in the options for proper execution.
+* This system cannot be used for very high temperature.
 
 ## 4W's and 1H
-* **What** - Parking Management System
-* **Where** - In Malls, Restaurents, Function Halls
-* **When** - Gettogethers, Meetings, Functions
-* **Why** - To create traffic free parking areas
-* **How** - By information provided by the user
+* *What* - Heating control system in a vehicle
+* *Where* - Used in almost all of the passenger vehicles
+* *When* -  When temperature is low
+* *Why* - To maintain body temperature
+* *How* - By using sensors
+
 
 ## Detail Requirements
 ### High Level Requirements
@@ -53,14 +55,13 @@ The heat control system is used to control the temperature of the car seat. When
 | HLR2 | Switches |
 | HLR3 | Temperature sensor |
 | HLR4 | Heater |
-| HLR5 | Display |
+| HLR5 | Display CDD CRO |
 
 ### Low Level Requirements
-| Low Level Requirements      | Description |
-| ----------- | ----------- |
-| LLR1      | Add List of Vehicles     |
-| LLR2   | Capacity|
-| LLR3   | View Amount to be paid |
-| LLR4   |View Previous Vehicles information |
-| LLR5   | Get Data / Exit |
+| ID | Description |HLR ID |
+| ----------- | ----------- | --------- |
+| LLR1 | ATMega328  | HLR1 |
+| LLR2 | ADCand Potentiometer |HLR3 |
+| LLR3 | Thermo electric module | HLR4 |
+| LLR4 | LCD and LED, PWM | HLR5 |
 
