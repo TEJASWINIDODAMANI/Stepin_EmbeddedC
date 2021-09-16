@@ -50,3 +50,10 @@ Potentiometer is used as a temperature sensor to read the temperature values and
 
 ![case21](https://user-images.githubusercontent.com/89584926/133652773-1137da6f-4e5c-4ace-a697-5618593b1fb5.PNG)
 
+# Activity 3
+Temperature value is displayed by showing PWM signal from a temperature sensor (Potentiometer)
+
+![Act3](https://user-images.githubusercontent.com/89584926/133661703-a1d52cd6-9ea0-4a8f-b4ac-f873234b42f8.png)
+
+
+
